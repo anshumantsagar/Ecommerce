@@ -1,0 +1,33 @@
+<div class="form-group">
+  <label for="name">Name</label>
+  <input [(ngModel)]="productName" type="text" class="form-control" id="input name" placeholder="Enter name">
+</div>
+<div class="form-group">
+  <label for="Image">Image URL</label>
+  <input [(ngModel)]="Image" type="text" class="form-control" id="input image" placeholder="Enter Image">
+</div>
+<div class="form-group">
+  <label for="brand">Brand</label>
+  <input  [(ngModel)]="brandName" type="text" class="form-control" id="input brand" placeholder="Enter brand">
+</div>
+<div class="form-group">
+  <label for="price">price</label>
+  <input  [(ngModel)]="price" type="number" class="form-control" id="input price" placeholder="Enter price">
+</div>
+<div class="form-group">
+  <label for="input quantity">quantity</label>
+  <input [(ngModel)]="quantity" type="text" class="form-control" id="input quantity" placeholder="Enter quantity">
+</div>
+<div class="form-group">
+  <label for="input catogary">catogary</label>
+  <input [(ngModel)]="Category" type="text" class="form-control" id="input catogary" placeholder="Enter catogary">
+</div>
+<div class="form-group">
+  <label for="input Seller">Seller Name</label>
+  <input [(ngModel)]="Seller" type="text" class="form-control" id="input seller name" placeholder="Enter Seller name">
+</div>
+<div class="form-group">
+  <label for="input Details">Details</label>
+  <input [(ngModel)]="Details" type="text" class="form-control" id="input Details" placeholder="Enter Details">
+</div>
+<button (click)="addProduct()" type="submit" class="btn btn-primary">Submit</button>

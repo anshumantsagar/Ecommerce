@@ -1,0 +1,22 @@
+<!-- <div >
+  <app-product *ngFor="let product of products" [product]="product"></app-product>
+</div> -->
+<div *ngIf="isCartEmpty" class="alert alert-danger">Your Cart Is Empty</div>
+<div *ngFor="let item of cartitems[0]" class="row">
+    <div class="col-md-6">
+      <img src="{{item.productimage}}"style="height:150px ; width:150px"/>
+      <div><label for="">{{item.productname}}</label></div>
+      <div><label for="">{{item.productprice}}</label></div>
+      
+  <div class="col-md-6">
+    <button (click)="remove(item.productid)" class="btn btn-danger">Remove</button>
+  </div>
+  
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-md-6">
+        <label for="">Total price is {{totalprice}}</label>
+        <button  routerLink='/checkout' class="btn btn-success">checkout</button>
+      </div>
+    </div>

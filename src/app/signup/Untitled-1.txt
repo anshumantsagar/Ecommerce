@@ -1,0 +1,104 @@
+->ng new project
+ng serve //procject ke folder ke ander jaake
+
+->it will create a server on port no.4200 and it will render the 
+index.html file on the browser through that server
+
+->ng space server --PORT = XXXX   // for changing the port no.
+
+->angular creates component it gives us the power to create custom made tags 
+  which can anything like a login view
+->component is what we see on screen
+
+-> ng genrate
+
+-> when we create or write a code in login.component.html that create a html custom tag 
+   and when we paste that in app.component.html by using that custom tag 
+
+->  <tag style="key:value; anotherkey:value;"
+
+->jo screen pr dikhta wo html ha or wo aata ha ts se
+
+->jo data ts me ha wo data html me dikhega agar ma usko likhdunga {} double curley braces ke ander
+
+-> class ke ander wala data he html tk phouch paega
+
+->html to ts to api to ts to html // content flow
+
+->html me jitne bhi event hote ha wo start hote ha wo hote ha on se jaise onClick
+
+->angular me on hat jata or sb small me hojata ha
+
+-> event ke naam ko () circular perenthesis se bind kardo toh wo ts se aarha ha ise khate ha interpolation
+
+-> ng model user se data leta ha avilable ha formsmodule
+
+-> [(ngModel)]  //syntax for using ngModel (always use in html kyoki value aati wahi se he ha)
+
+->this keyword holds the current value of the variable
+
+->httpclient is a service provider which provide httplink data transfer or link transfer
+
+->CORS error is the error caused by the blockage of sending 
+
+-> => arrow function works to preserve the scope
+
+->(eq.body.productid=Date.now)
+
+-> component ko hm jaise as a tag use krte ha wha hm input pass karte ha
+
+->*ngFor="product"
+
+
+
+
+
+//{name:"Zenfone 5z",
+//               price:32999,
+//               image:"https://i.gadgets360cdn.com/products/large/1519753017_635_asus_zenfone_5z.jpg?downsize=*:180&output-quality=80"
+// },
+// {
+//   name:"Oneplus 7 pro",
+//   price:42999,
+//   image:"https://images-na.ssl-images-amazon.com/images/I/51-QMzEE0HL._SL1166_.jpg"
+// },
+// {
+//   name:"Zenfone 6z",
+//   price:34999,
+//   image:"https://www.xda-developers.com/files/2019/05/Asus-Zenfone-6-30-Feature-Image.png"
+// }
+
+
+
+->routes naam ke array me hm 2 trah ke json pass krte 
+
+->jis link pr hme jana ha us pr ek banda lgado jisko btyaenge hme kha jana ha routerlink="/login"
+
+->href anguler me nahi hina nahi chaiye warna angular fail
+
+->ek service class ha jo milege @angular/Router/
+->router class me method ha navigate naam ka 
+->*ngif="" // for conditional rendering
+
+-> what is dependency injuction 
+   jis component ko service ki jrurat hoti ha usme uska object bna lete ha this is
+   called as service injuction
+->two building blocks of angular are component and services.
+  services are also called injuctions.
+
+
+ >module[components,directives,pipes,services]
+ directives k ander aata ha  component and pipes
+ hm jitne bhi buildiung blocks generate krte ha uski information hm dete ha module ko
+
+
+
+
+
+
+
+
+
+
+
+

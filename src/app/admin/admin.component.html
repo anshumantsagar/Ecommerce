@@ -1,0 +1,13 @@
+<div class="mt-sm-5">
+  <div  class="m-auto" style="width: 600px;">
+        email<input [(ngModel)]="email" type="text" placeholder="username" class="form-control">
+        password<input [(ngModel)]="password" type="password" placeholder="password" class="form-control">
+        
+          <div class="col-sm">
+            <button (click)="login()" class="btn btn-primary">login</button>
+          </div>
+        
+  </div>
+  <div *ngIf="incorrect" class="alert alert-danger">
+    username or password is incorrect
+  </div>

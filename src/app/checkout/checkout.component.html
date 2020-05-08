@@ -1,0 +1,84 @@
+  <div class="mt-sm-5">
+    <div class="m-auto" style="width: 600px">
+
+
+      <div *ngFor="let item of cartitems[0]" class="row">
+        <div class="col-md-6">
+          <img src="{{item.productimage}}" style="height:50px ; width:50px"/>
+          <div><label for="">{{item.productname}}</label></div>
+          <div><label for="">{{item.productprice}}</label></div>
+      
+      
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <label for="">Total price is {{totalprice}} </label>
+        </div>
+
+      </div>
+      <div class="form-group">
+          <label  for="inputName">Name</label>
+          <input [(ngModel)]="name" type="text" class="form-control" id="inputAddress" placeholder="Name">
+        </div>
+      <div class="form-group">
+            <label for="inputEmail">Email</label>
+            <input [(ngModel)]="email" type="text" class="form-control" id="inputAddress" placeholder="example@example.com">
+          </div>
+      <div class="form-group">
+        <label for="inputStreet">Street</label>
+        <input [(ngModel)]="street" type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </div>
+      <div class="form-group">
+        <label for="inputAddress">Address</label>
+        <input [(ngModel)]="address"type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+      </div>
+      <div class="form-group">
+          <label for="inputAddress2">Landmark</label>
+          <input [(ngModel)]="landmark" type="text" class="form-control" id="Landmark" placeholder="Landmark">
+        </div>
+      <div class="form-group">
+        <label for="Phone no.">Phone No.</label>
+        <input [(ngModel)]="phone" type="number" class="form-control" id="phone" placeholder="9876543210">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">City</label>
+          <input [(ngModel)]="city" type="text" class="form-control" placeholder="City" id="inputCity">
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputZip">State</label>
+          <input [(ngModel)]="state" type="text" class="form-control" placeholder="State" id="State">
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputZip">Zip</label>
+          <input [(ngModel)]="pincode" type="text" class="form-control" placeholder="Zip Code" id="inputZip">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="Cash On Delivery">
+            Cash On Delivery
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+          <label class="form-check-label" for="defaultCheck2">
+            Online Payment
+          </label>
+        </div>
+      </div>
+      <button (click)="placeorder()"type="submit" class="btn btn-primary">Check Me Out</button>
+    
+    
+    
+    
+    </div>
+  </div>
+  
+  
+
+
+  

@@ -1,0 +1,23 @@
+<div class="form-group">
+  <label for="name">Name</label>
+  <input [(ngModel)]=hotelName type="text" class="form-control" id="input hotel name" placeholder="Enter hotel name">
+</div>
+<div class="form-group">
+  <label for="number">Brand</label>
+  <input  [(ngModel)]=brand type="number" class="form-control" id="input phone number" placeholder="Enter phone number">
+</div>
+<div class="form-group">
+  <label for="rating">price</label>
+  <input  [(ngModel)]=rating type="number" class="form-control" id="input rating" placeholder="Enter rating">
+</div>
+<div class="form-group">
+  <label for="reviews">quantity</label>
+  <input [(ngModel)]=reviews type="text" class="form-control" id="reviews" placeholder="Enter reviews">
+</div>
+<div class="form-group">
+  <label for="input catogary"></label>
+  <input [(ngModel)]=discount type="text" class="form-control" id="input if there is any discount" placeholder="Enter coupon details">
+</div>
+
+<button (click)="product()" type="submit" class="btn btn-primary">Submit</button>
+

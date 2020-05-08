@@ -1,0 +1,11 @@
+<div *ngFor="let order of orderlist" class="card">
+  <div class="card-header">
+    Order Id:{{order.id}}
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Customer Name{{order.name}}</h5>
+    <p class="card-text">address{{order.address}}</p>
+    <p class="card-text">Order Item</p>
+    <a href="#" class="btn btn-primary">more details</a>
+  </div>
+</div>
